@@ -23,6 +23,7 @@ $('input[type=submit]').click( function (e) {
         $(document).ready(function(){
           $('.check').click(function(event){
             $(this).parent().toggleClass('over');
+              not(this).parent().toggleClass('over');
          });
         }); 
 
