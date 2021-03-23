@@ -7,8 +7,6 @@ $('input[type=submit]').click( function (e) {
     if (task.length > 0) {
         let li = $("<li>", {id: "list", class: "new"});
         let checkbox = $("<input>", {type: "checkbox", id: "in1",class: "check"})
-        let c = $("<span>")
-        c.text('non')
         // let del = $("<span>", {class: "delete"})
         // del.text('x')
         let del = $("<button>" ,{class: "delete"})
